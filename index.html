@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Note Taking App</h1>
+      <form>
+        <textarea
+          id="note-content"
+          placeholder="Enter your note here"
+        ></textarea>
+        <button type="button" onclick="saveNote()">Save Note</button>
+        <button type="button" onclick="generatePDF()">Generate PDF</button>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
